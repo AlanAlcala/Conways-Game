@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ConwaysGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="Simulate">Simulate</string>
+	<string name="Next">Next</string>
+	<string name="Stop">Stop</string>
+	<string name="Clear">Clear</string>
+
+</resources>

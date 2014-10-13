@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <com.alan.alcala.conwaysgame.DrawWorld
+        android:id="@+id/DrawClass"
+        android:layout_width="wrap_content"
+        android:layout_height="340dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonSimulate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Simulate" />
+
+            <Button
+                android:id="@+id/ButtonNext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Next" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/ButtonStop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Stop" />
+
+            <Button
+                android:id="@+id/ButtonClear"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Clear" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
